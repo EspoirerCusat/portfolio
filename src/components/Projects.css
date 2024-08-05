@@ -1,0 +1,21 @@
+/* Add this CSS to the Projects.css file */
+.container.projects {
+  padding: 2rem 0;
+}
+
+.project-section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.btn {
+  margin: 5px 0;
+}
